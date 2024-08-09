@@ -1,0 +1,24 @@
+:root {
+    --white: rgb(244, 244, 245);
+    --dark-blue: rgb(20, 29, 56);
+    --light-blue: rgb(0, 200, 255);
+    --medium-purple: rgb(42, 31, 98);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--dark-blue);
+    background-color: var(--white);
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
