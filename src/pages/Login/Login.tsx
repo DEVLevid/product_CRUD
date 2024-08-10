@@ -17,11 +17,14 @@ export default function Login() {
           password,
         }
       );
-      localStorage.setItem("token", response.data.token);
+      localStorage.setItem("authToken", response.data.data.token);
       navigate("/products");
     } catch (error) {
-      console.error("Erro ao realizar login:", error);
-      alert("Login falhou. Verifique suas credenciais.");
+      if (axios.isAxiosError(error) && error.response) {
+        console.error("Erro ao fazer login:", error.response.data);
+      } else {
+        console.error("Erro ao fazer login:", error);
+      }
     }
   };
 
