@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login/Login";
-import ProductsList from "./pages/Products/List/ProductsList";
 import Register from "./pages/Register/Register";
-import ProductCreate from "./pages/Products/Create/ProductCreate";
-import ProductEdit from "./pages/Products/Edit/ProductEdit";
+import ProductCreate from "./pages/Create/ProductCreate";
+import ProductEdit from "./pages/Edit/ProductEdit";
+import ProductsList from "./pages/List/ProductsList";
+
 
 export default function Router() {
   return (
