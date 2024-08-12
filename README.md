@@ -4,7 +4,7 @@ Bem-vindo ao repositório do product_CRUD, aplicação web para gerenciamento de
 
 ## Descrição do Projeto
 
-Este projeto é um teste técnico que simula uma aplicação de gerenciamento de produtos, incluindo funcionalidades de criação, leitura, atualização e exclusão de produtos. A aplicação é construída com React e TypeScript, e utiliza o Material-UI para a interface do usuário.
+Este projeto é um teste técnico que simula uma aplicação de gerenciamento de produtos, incluindo funcionalidades de criação, leitura, atualização e exclusão de produtos. A aplicação é construída com React e TypeScript.
 
 ### Funcionalidades
 
