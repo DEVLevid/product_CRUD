@@ -1,3 +1,15 @@
+:root {
+  --primary-color: rgb(20, 29, 56);
+  --secondary-color: rgb(115, 137, 164);
+  --background-color: rgb(226, 231, 250);
+  --input-background: rgb(244, 244, 245);
+  --button-background: rgb(104, 77, 244);
+  --button-hover: var(--primary-color);
+  --text-color: var(--input-background);
+  --error-color: red;
+  --shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -8,29 +20,25 @@
 
 .title {
   font-size: 3rem;
-  color: rgb(20, 29, 56);
+  color: var(--primary-color);
 }
 
 .formContainer {
   width: 44rem;
-  height: min-content;
+  padding: 3rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-
-  padding: 3rem;
-  margin-top: 2rem;
-  background-color: transparent;
-  color: rgb(115, 137, 164);
-  background-color: rgb(226, 231, 250);
+  background-color: var(--background-color);
+  color: var(--secondary-color);
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: var(--shadow);
 }
 
 .textInput {
   padding: 1rem;
-  background-color: rgb(244, 244, 245);
+  background-color: var(--input-background);
   border: none;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
@@ -43,15 +51,15 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: rgb(104, 77, 244);
-  color: rgb(244, 244, 245);
+  background-color: var(--button-background);
+  color: var(--text-color);
   font-size: 1.2rem;
   position: relative;
   overflow: hidden;
+  transition: background-color 0.4s ease-in-out;
 
   &:hover {
-    background-color: rgb(20, 29, 56);
-    transition: 0.4s ease-in-out;
+    background-color: var(--button-hover);
   }
 }
 
@@ -60,6 +68,11 @@
 
   a {
     text-decoration: underline;
-    color: rgb(20, 29, 56);
+    color: var(--primary-color);
   }
+}
+
+.error {
+  color: var(--error-color);
+  align-self: center;
 }
