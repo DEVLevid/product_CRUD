@@ -20,3 +20,12 @@ Este projeto é um teste técnico que simula uma aplicação de gerenciamento de
 - **TypeScript:** Superset do JavaScript que adiciona tipagem estática.
 - **Axios:** Biblioteca para fazer requisições HTTP para a API.
 - **SCSS:** Pré-processador CSS para estilização.
+
+## Como instalar o projeto 
+- Primeiro passo é clonar o repositório em sua máquina utilizando o seguinte comando:
+```
+git clone https://github.com/DEVLevid/product_CRUD/tree/master
+```
+- No seu editor de texto favorito, navegue até o arquivo ```product_CRUD```.
+- Instale todas as dependências necessárias através do comando ```npm install```.
+- Instaladas as dependências, podemos executar o projeto utilizando o comando ```npm run dev``` e navegar pela URL ```http://localhost:5173/```.
