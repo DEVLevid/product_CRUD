@@ -1,6 +1,6 @@
 # Teste Técnico - Aplicação de Gerenciamento de Produtos
 
-Bem-vindo ao repositório do product_CRUD, aplica;'ao web para gerenciamento de produtos! Esta aplicação foi desenvolvida para demonstrar habilidades em front-end, integração com APIs, e boas práticas de desenvolvimento.
+Bem-vindo ao repositório do product_CRUD, aplicação web para gerenciamento de produtos! Esta aplicação foi desenvolvida para demonstrar habilidades em front-end, integração com APIs, e boas práticas de desenvolvimento.
 
 ## Descrição do Projeto
 
