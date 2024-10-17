@@ -29,4 +29,3 @@ git clone https://github.com/DEVLevid/product_CRUD/tree/master
 - No seu editor de texto favorito, navegue até o arquivo ```product_CRUD```.
 - Instale todas as dependências necessárias através do comando ```npm install```.
 - Instaladas as dependências, podemos executar o projeto utilizando o comando ```npm run dev``` e navegar pela URL ```http://localhost:5173/```.
-
